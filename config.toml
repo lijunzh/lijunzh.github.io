@@ -108,12 +108,9 @@ I helped building effective teams at organizations like <a href="https://tech.wa
 
 ## My work
 
-<div style="margin: 2rem 0; padding: 2rem; background-color: var(--entry); border-radius: 12px; border-left: 4px solid var(--primary);">
-    <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem;">I've made impact at each organization I've served. I've grown influence, established essential infrastructure, shaped culture, hired and cultivated talent, built new teams, and led the creation of life-changing products.</p>
-    <p style="color: var(--secondary); font-style: italic;">More details coming soon...</p>
-</div>
+<div style="margin-top: 2rem;"></div>
 
-## My most recent publication
+I've made impact at each organization I've served. I've grown influence, established essential infrastructure, shaped culture, hired and cultivated talent, built new teams, and led the creation of life-changing products.
 
 <div style="text-align: center; margin: 3rem 0; position: relative;">
     <div style="font-size: 1.3rem; font-weight: 300; line-height: 1.5; color: var(--primary); font-style: italic; position: relative; max-width: 700px; margin: 0 auto;">
@@ -122,7 +119,6 @@ I helped building effective teams at organizations like <a href="https://tech.wa
         <span style="font-size: 1.8rem; color: var(--secondary); opacity: 0.6; position: absolute; right: -1rem; bottom: -0.3rem;">"</span>
     </div>
     <div style="width: 40px; height: 2px; background: var(--secondary); margin: 1rem auto 0; opacity: 0.5;"></div>
-    <p style="color: var(--secondary); font-style: italic; margin-top: 1rem;">Publications portfolio in development...</p>
 </div>
 
 ## A bit about me

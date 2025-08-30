@@ -2,12 +2,12 @@
 base_url = "https://lijunzh.github.io"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "after-dark"
+theme = "papermod"
 
 taxonomies = [
     # You can enable/disable RSS
@@ -25,21 +25,133 @@ highlight_theme = "one-dark"
 [search]
 index_format = "elasticlunr_json"
 
+title = "Lijun Zhu's Blog"
+description = "Personal blog about programming, AI, and technology"
+
 [extra]
 # Put all your custom variables here
 author = "Lijun Zhu"
 
-after_dark_title = "Lijun Zhu's Blog"
-after_dark_menu = [
-	{url = "$BASE_URL", name = "Home"},
-	{url = "$BASE_URL/about", name = "About"},
-	{url = "$BASE_URL/posts", name = "Posts"},
-	# {url = "$BASE_URL/categories", name = "Categories"},
-	# {url = "$BASE_URL/tags", name = "Tags"},
+# PaperMod theme configuration
+[extra.papermod]
+title = "Lijun Zhu's Blog"
+default_theme = "auto"
+theme = "light"
+language_direction = "ltr"
+keywords = ["programming", "AI", "technology", "machine learning"]
+show_theme_toggle = true
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = true
+show_word_count = false
+show_post_nav_links = true
+show_post_meta = true
+default_toc_open = false
+date_format = "%Y-%m-%d"
+
+home_title = "Lijun Zhu"
+home_content = """
+<div style="display: flex; align-items: center; gap: 3rem; margin: 3rem 0; max-width: 800px; margin-left: auto; margin-right: auto; flex-wrap: wrap; justify-content: center;">
+    <div style="flex-shrink: 0;">
+        <img src="/processed_images/lijun.7e7404b01739a660.jpg" alt="Lijun Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+    <div style="flex: 1; min-width: 300px; text-align: left; position: relative;">
+        <div style="font-size: 1.6rem; font-weight: 300; line-height: 1.5; color: var(--primary); font-style: italic; position: relative;">
+            <span style="font-size: 2rem; color: var(--secondary); opacity: 0.6; position: absolute; left: -1rem; top: -0.5rem;">"</span>
+            I love leading tech teams to achieve their full potential.
+            <span style="font-size: 2rem; color: var(--secondary); opacity: 0.6; position: absolute; right: -1rem; bottom: -0.5rem;">"</span>
+        </div>
+        <div style="width: 60px; height: 2px; background: var(--primary); margin: 1.5rem 0 0 0; opacity: 0.7;"></div>
+    </div>
+</div>
+
+I helped building effective teams at organizations like <a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Walmart Global Tech</a>, <a href="https://www.ti.com/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Texas Instruments</a>, and <a href="https://www.gatech.edu/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Georgia Institute of Technology</a>. I am also an open-source contributor to packages like <a href="https://numpy.org/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Numpy</a>, <a href="https://github.com/obspy/obspy" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Obspy</a>, and <a href="https://pytorch.org/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">PyTorch</a>.
+
+
+
+<div style="margin-top: 4rem;"></div>
+
+## A brief history
+
+<div style="margin: 2rem 0;">
+    <div style="display: grid; gap: 1.5rem; max-width: 800px; margin: 0 auto;">
+        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
+            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2025-now</div>
+            <div>
+                <div style="font-weight: 600; margin-bottom: 0.5rem;">Director of Computer Vision</div>
+                <div style="color: var(--secondary);"><a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--primary); text-decoration: none;">Walmart Global Tech</a></div>
+            </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
+            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2022-2025</div>
+            <div>
+                <div style="font-weight: 600; margin-bottom: 0.5rem;">Manager of Machine Learning</div>
+                <div style="color: var(--secondary);"><a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--primary); text-decoration: none;">Walmart Global Tech</a></div>
+            </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
+            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2018-2022</div>
+            <div>
+                <div style="font-weight: 600; margin-bottom: 0.5rem;">Team lead of Machine Learning</div>
+                <div style="color: var(--secondary);"><a href="https://www.ti.com/technologies/edge-ai.html" style="color: var(--primary); text-decoration: none;">Texas Instruments</a></div>
+            </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
+            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2013-2018</div>
+            <div>
+                <div style="font-weight: 600; margin-bottom: 0.5rem;">Lead Research Assistant</div>
+                <div style="color: var(--secondary);"><a href="https://cegp.ece.gatech.edu/" style="color: var(--primary); text-decoration: none;">Georgia Institute of Technology</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+## My work
+
+<div style="margin: 2rem 0; padding: 2rem; background-color: var(--entry); border-radius: 12px; border-left: 4px solid var(--primary);">
+    <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem;">I've made impact at each organization I've served. I've grown influence, established essential infrastructure, shaped culture, hired and cultivated talent, built new teams, and led the creation of life-changing products.</p>
+    <p style="color: var(--secondary); font-style: italic;">More details coming soon...</p>
+</div>
+
+## My most recent publication
+
+<div style="text-align: center; margin: 3rem 0; position: relative;">
+    <div style="font-size: 1.3rem; font-weight: 300; line-height: 1.5; color: var(--primary); font-style: italic; position: relative; max-width: 700px; margin: 0 auto;">
+        <span style="font-size: 1.8rem; color: var(--secondary); opacity: 0.6; position: absolute; left: -1rem; top: -0.3rem;">"</span>
+        Platforms can be more than functional - they can inspire our thinking and enable us to do things that we didn't know we could before.
+        <span style="font-size: 1.8rem; color: var(--secondary); opacity: 0.6; position: absolute; right: -1rem; bottom: -0.3rem;">"</span>
+    </div>
+    <div style="width: 40px; height: 2px; background: var(--secondary); margin: 1rem auto 0; opacity: 0.5;"></div>
+    <p style="color: var(--secondary); font-style: italic; margin-top: 1rem;">Publications portfolio in development...</p>
+</div>
+
+## A bit about me
+
+<div style="margin: 2rem 0;">
+    <div style="display: grid; gap: 1.5rem; max-width: 600px; margin: 0 auto;">
+        <div style="text-align: center; margin: 2rem 0;">
+            <div style="font-size: 1.2rem; font-weight: 300; line-height: 1.5; color: var(--primary); font-style: italic; margin-bottom: 1.5rem;">
+                <span style="font-size: 1.5rem; color: var(--secondary); opacity: 0.6;">"</span>Learning is my great passion and curiosity is my ultimate drive.<span style="font-size: 1.5rem; color: var(--secondary); opacity: 0.6;">"</span>
+            </div>
+        </div>
+        <div style="padding: 1.5rem; background-color: var(--entry); border-radius: 8px; text-align: center;">
+            <p style="line-height: 1.6; margin-bottom: 1rem;">I like to read, I play instruments, I love to BBQ, and even though I can no longer spend significant time to do it, I can't stop coding.</p>
+            <a href="/about" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; font-weight: 500;">Learn more about me →</a>
+        </div>
+    </div>
+</div>
+"""
+
+navigation = [
+    { url = "$BASE_URL", title = "Home" },
+    { url = "$BASE_URL/about", title = "About" },
+    { url = "$BASE_URL/posts", title = "Posts" },
+    { url = "$BASE_URL/search", title = "Search" },
 ]
 
-codeblock = true
-
-latex = true
-
-enable_search = true
+social_icons = [
+    { url = "https://github.com/lijunzh/resume/releases/latest/download/resume.pdf", title = "Resume", icon = "cv" },
+    { url = "mailto:gatechzhu@gmail.com", title = "Email", icon = "email" },
+    { url = "https://github.com/lijunzh/", title = "GitHub", icon = "github" },
+    { url = "https://www.linkedin.com/in/lijunzh/", title = "LinkedIn", icon = "linkedin" },
+]

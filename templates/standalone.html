@@ -1,0 +1,35 @@
+{% import "macros/social_icon.svg.html" as macro_social -%}
+{% extends "page.html" %}
+
+{# Override breadcrumbs to remove "Posts" reference #}
+{% block main %}
+<article class="post-single">
+  <header class="post-header">
+      <div class="breadcrumbs">
+          <a href="{{ config.base_url }}">Home</a>&nbsp;»&nbsp;
+          <span>{{ page.title }}</span>
+      </div>
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+      <div class="post-description">
+          {{ page.description }}
+      </div>
+      {% endif %}
+      {# Remove post meta (date, reading time, etc.) for standalone pages #}
+  </header>
+
+  {# No TOC for standalone pages #}
+
+  {% if page.content %}
+  <div class="post-content">
+      {{ page.content | safe }}
+  </div>
+  {% endif %}
+
+  {# Clean footer with social icons like homepage #}
+  <footer class="post-footer">
+    {% include "partials/social_icons.html" %}
+  </footer>
+
+</article>
+{% endblock %}

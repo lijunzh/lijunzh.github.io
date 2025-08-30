@@ -1,7 +1,6 @@
 +++
 title = "Search"
-date = 2024-03-24
-weight = 1
+date = 2020-01-01
+template = "search.html"
+draft = false
 +++
-
-Search through all posts and pages on the blog.

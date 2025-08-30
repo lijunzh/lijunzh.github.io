@@ -1,7 +1,8 @@
 +++
 title = "About"
-date = 2024-03-24
-insert_anchor_links = "heading"
+date = 2020-01-01
+template = "page.html"
+draft = false
 +++
 
 <!--Design inspired by "https://www.aarronwalter.com/"-->

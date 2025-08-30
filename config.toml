@@ -58,7 +58,7 @@ home_content = """
     <div style="flex: 1; min-width: 300px; text-align: left; position: relative;">
         <div style="font-size: 1.6rem; font-weight: 300; line-height: 1.5; color: var(--primary); font-style: italic; position: relative;">
             <span style="font-size: 2rem; color: var(--secondary); opacity: 0.6; position: absolute; left: -1rem; top: -0.5rem;">"</span>
-            I love leading tech teams to achieve their full potential.
+            Leading teams to achieve full potential.
             <span style="font-size: 2rem; color: var(--secondary); opacity: 0.6; position: absolute; right: -1rem; bottom: -0.5rem;">"</span>
         </div>
         <div style="width: 60px; height: 2px; background: var(--primary); margin: 1.5rem 0 0 0; opacity: 0.7;"></div>

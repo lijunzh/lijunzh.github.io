@@ -7,6 +7,12 @@ compile_sass = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+# Enable RSS feed generation
+generate_feeds = true
+
+# Specify the feed filenames (you can use either or both)
+feed_filenames = ["rss.xml", "atom.xml"]
+
 theme = "papermod"
 
 taxonomies = [
@@ -145,4 +151,5 @@ social_icons = [
     { url = "mailto:gatechzhu@gmail.com", title = "Email", icon = "email" },
     { url = "https://github.com/lijunzh/", title = "GitHub", icon = "github" },
     { url = "https://www.linkedin.com/in/lijunzh/", title = "LinkedIn", icon = "linkedin" },
+    { url = "$BASE_URL/rss.xml", title = "RSS", icon = "rss" },
 ]

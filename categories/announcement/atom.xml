@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Announcement</title>
+    <link rel="self" type="application/atom+xml" href="https://lijunzh.github.io/categories/announcement/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://lijunzh.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-03-24T00:00:00+00:00</updated>
+    <id>https://lijunzh.github.io/categories/announcement/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Restarting My Blog: A Decade Later</title>
+        <published>2024-03-24T00:00:00+00:00</published>
+        <updated>2024-03-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lijunzh.github.io/posts/start-blogging/"/>
+        <id>https://lijunzh.github.io/posts/start-blogging/</id>
+        
+        <content type="html" xml:base="https://lijunzh.github.io/posts/start-blogging/">&lt;h2 id=&quot;what-happened-before&quot;&gt;What happened before?&lt;&#x2F;h2&gt;
+&lt;p&gt;It’s been almost ten years since I last posted on my blog. Back in 2012, I was a college student diving into GitHub, open-source projects, and self-hosting. By 2014, I had a static website humming along on &lt;a href=&quot;https:&#x2F;&#x2F;pages.github.com&#x2F;&quot;&gt;GitHub Pages&lt;&#x2F;a&gt; with a custom domain—a small victory I still remember fondly. For a couple of years, I shared my learning, research findings, and tech experiments there. It was my little corner of the internet.&lt;&#x2F;p&gt;
+&lt;p&gt;Then life took over. By 2016, my research turned confidential, and my first child arrived, leaving little time for blogging. The site went silent, though I kept tinkering—GitHub repos and Apple Notes became my outlets for ideas and lessons. Around 2015, I started exploring &lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt;, drawn to its performance and safety, but with no real use case, it stayed a curiosity. Fast forward to 2025, and I’m back, rebooting my blog with fresh tools and a renewed purpose.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-now&quot;&gt;Why now?&lt;&#x2F;h2&gt;
+&lt;p&gt;Three reasons pulled me back, plus a newfound ally in Large Language Models (LLMs) that’s making this restart smoother than I expected.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Testing Zola and the Rust Ecosystem&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Rust has matured since I first peeked at it a decade ago, and I stumbled across &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; — a fast, simple static site generator (SSG) written in Rust. It’s the perfect fit for my love of lightweight, self-hosted solutions. Restarting my blog became an excuse to dive into Zola, explore the Rust ecosystem, and build something tangible. I’m already hooked—the developer experience is slick, and the performance lives up to the hype. This blog is now my Rust-powered playground.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Taking Back My Digital Life&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The second push came from &lt;a href=&quot;https:&#x2F;&#x2F;supaiku.com&#x2F;taking-back-the-web&quot;&gt;“Taking Back the Web” by Supaiku&lt;&#x2F;a&gt;, a call to reclaim Robin Hood-style rebellion against the app-driven web. It resonated deeply. For years, my thoughts have been scattered across GitHub issues, Apple Notes, and the occasional tweet. I missed having a central, self-hosted hub that I control—no algorithms, no app stores, just my words, my way. Restarting my blog feels like a step toward that independence.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Finding Balance in Sharing and Organizing&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;I’ve always documented my learning, but it’s been chaotic—half-baked GitHub READMEs, cryptic notes, you name it. Tools like Notion tempted me, but I didn’t want another app in my ecosystem. A blog strikes a balance: a public space to refine and share what’s worth sharing, while keeping my private mess separate. It’s about clarity—for myself and anyone who stumbles across it.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;LLMs: &lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;karpathy&#x2F;status&#x2F;1886192184808149383&quot;&gt;Vibe Coding&lt;&#x2F;a&gt; and Writing Made Easy&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;This month, I started experimenting with “vibe coding”—using LLMs to kickstart projects from scratch. It’s been a game-changer for spinning up code when I’m staring at a blank slate, and I realized it could do the same for blogging. One big barrier to keeping my blog alive back in the day was the effort to organize my thoughts and polish my language for public eyes. With LLMs, that friction melts away. I can jot down quick ideas, get a rough draft, and refine it in half the time. It’s like having a co-writer who’s always ready to brainstorm. This post? It started as a few bullet points, and the LLM helped me turn it into something readable—fast. Efficiency up, barriers down, and I’m actually excited to write again.
+Back to the 2010s, But Better&lt;&#x2F;p&gt;
+&lt;p&gt;This reboot feels like stepping back into the early 2010s, setting up my first GitHub Pages site. But now, I’ve got sharper tools—Zola, Rust, LLMs—and a decade of experience. It’s not just a blog restart; it’s a quiet rebellion against the app-driven web and a chance to blend my passions for Rust, self-hosting, and organized chaos, with a little AI assist to keep the words flowing.&lt;&#x2F;p&gt;
+&lt;p&gt;Here I am in 2025, typing this, ready for the ride ahead. Expect posts about Rust, Zola, self-hosting, LLMs, and whatever else I’m digging into. If you’re reading this, welcome along!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-s-my-plan&quot;&gt;What&#x27;s my plan?&lt;&#x2F;h2&gt;
+&lt;p&gt;I will first migrate my old personal website to the new Zola SSG tools. The new CI&#x2F;CD will be built on top of GitHub action instead of Travis CI. Potentially, some old blog posts will be migrated to this new blog with the original post date and the repost date. I will focus on my personal interest around programming, investment, and artificial intelligence. I will start with
+an existing theme and build on top of it to make it suit my style&#x2F;need.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

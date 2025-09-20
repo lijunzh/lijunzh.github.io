@@ -1,0 +1,169 @@
+.post-content pre,
+.post-content pre code {
+    border-radius: var(--radius);
+}
+.post-content pre code > table {
+    display: table;
+    margin: 10px auto;
+    border-radius: var(--radius);
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+.post-content pre code > table td {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.post-content pre code > table td:first-child {
+    white-space: pre;
+    user-select: none;
+    margin: 0;
+    padding: 0 1em 0 0;
+    color: #7f7f7f;
+    text-align: right;
+    display: table-cell;
+    max-width: 10%;
+}
+.post-content pre code > table td:nth-child(2) {
+    width: 92%;
+}
+#searchbox input {
+    background-color: var(--theme);
+}
+.dark #searchbox input {
+    background-color: var(--tertiary);
+}
+
+/* Custom styling for timeline banners in "A brief history" section */
+.timeline-card {
+    transition: all 0.3s ease;
+}
+
+.timeline-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Timeline gradient - from dark gray (recent/prominent) to light gray (older/less prominent) */
+.timeline-card-1 {
+    border-left: 4px solid #222222 !important; /* Dark gray/black - most recent for prominence */
+    background: linear-gradient(135deg, rgba(34, 34, 34, 0.08) 0%, rgba(34, 34, 34, 0.03) 100%) !important;
+    box-shadow: 0 2px 4px rgba(34, 34, 34, 0.15);
+}
+
+.timeline-card-1:hover {
+    box-shadow: 0 4px 12px rgba(34, 34, 34, 0.20);
+    border-left-color: #111111 !important;
+}
+
+.timeline-card-1 .timeline-date {
+    color: #222222 !important;
+}
+
+.timeline-card-2 {
+    border-left: 4px solid #444444 !important; /* Medium-dark gray */
+    background: linear-gradient(135deg, rgba(68, 68, 68, 0.07) 0%, rgba(68, 68, 68, 0.03) 100%) !important;
+    box-shadow: 0 2px 4px rgba(68, 68, 68, 0.12);
+}
+
+.timeline-card-2:hover {
+    box-shadow: 0 4px 12px rgba(68, 68, 68, 0.18);
+    border-left-color: #333333 !important;
+}
+
+.timeline-card-2 .timeline-date {
+    color: #444444 !important;
+}
+
+.timeline-card-3 {
+    border-left: 4px solid #666666 !important; /* Medium gray */
+    background: linear-gradient(135deg, rgba(102, 102, 102, 0.06) 0%, rgba(102, 102, 102, 0.02) 100%) !important;
+    box-shadow: 0 2px 4px rgba(102, 102, 102, 0.10);
+}
+
+.timeline-card-3:hover {
+    box-shadow: 0 4px 12px rgba(102, 102, 102, 0.16);
+    border-left-color: #555555 !important;
+}
+
+.timeline-card-3 .timeline-date {
+    color: #666666 !important;
+}
+
+.timeline-card-4 {
+    border-left: 4px solid #888888 !important; /* Light gray - oldest/least prominent */
+    background: linear-gradient(135deg, rgba(136, 136, 136, 0.05) 0%, rgba(136, 136, 136, 0.02) 100%) !important;
+    box-shadow: 0 2px 4px rgba(136, 136, 136, 0.09);
+}
+
+.timeline-card-4:hover {
+    box-shadow: 0 4px 12px rgba(136, 136, 136, 0.15);
+    border-left-color: #777777 !important;
+}
+
+.timeline-card-4 .timeline-date {
+    color: #888888 !important;
+}
+
+/* Dark mode adjustments - bright/prominent (recent) to dimmer (older) */
+.dark .timeline-card-1 {
+    border-left: 4px solid #ffffff !important; /* Brightest white - most recent for prominence */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.18);
+}
+
+.dark .timeline-card-1:hover {
+    border-left-color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.28);
+}
+
+.dark .timeline-card-1 .timeline-date {
+    color: #ffffff !important;
+}
+
+.dark .timeline-card-2 {
+    border-left: 4px solid #cccccc !important; /* Bright gray */
+    background: linear-gradient(135deg, rgba(204, 204, 204, 0.11) 0%, rgba(204, 204, 204, 0.04) 100%) !important;
+    box-shadow: 0 2px 4px rgba(204, 204, 204, 0.16);
+}
+
+.dark .timeline-card-2:hover {
+    border-left-color: #dddddd !important;
+    box-shadow: 0 4px 12px rgba(204, 204, 204, 0.26);
+}
+
+.dark .timeline-card-2 .timeline-date {
+    color: #cccccc !important;
+}
+
+.dark .timeline-card-3 {
+    border-left: 4px solid #aaaaaa !important; /* Medium gray */
+    background: linear-gradient(135deg, rgba(170, 170, 170, 0.10) 0%, rgba(170, 170, 170, 0.03) 100%) !important;
+    box-shadow: 0 2px 4px rgba(170, 170, 170, 0.14);
+}
+
+.dark .timeline-card-3:hover {
+    border-left-color: #bbbbbb !important;
+    box-shadow: 0 4px 12px rgba(170, 170, 170, 0.24);
+}
+
+.dark .timeline-card-3 .timeline-date {
+    color: #aaaaaa !important;
+}
+
+.dark .timeline-card-4 {
+    border-left: 4px solid #888888 !important; /* Dimmer gray - oldest/least prominent */
+    background: linear-gradient(135deg, rgba(136, 136, 136, 0.09) 0%, rgba(136, 136, 136, 0.03) 100%) !important;
+    box-shadow: 0 2px 4px rgba(136, 136, 136, 0.12);
+}
+
+.dark .timeline-card-4:hover {
+    border-left-color: #999999 !important;
+    box-shadow: 0 4px 12px rgba(136, 136, 136, 0.22);
+}
+
+.dark .timeline-card-4 .timeline-date {
+    color: #888888 !important;
+}

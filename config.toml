@@ -83,29 +83,29 @@ I helped building effective teams at organizations like <a href="https://tech.wa
 
 <div style="margin: 2rem 0;">
     <div style="display: grid; gap: 1.5rem; max-width: 800px; margin: 0 auto;">
-        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
-            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2025-now</div>
+        <div class="timeline-card timeline-card-1" style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px;">
+            <div class="timeline-date" style="font-weight: 600; font-size: 0.9rem;">2025-now</div>
             <div>
                 <div style="font-weight: 600; margin-bottom: 0.5rem;">Director of Computer Vision</div>
                 <div style="color: var(--secondary);"><a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--primary); text-decoration: none;">Walmart Global Tech</a></div>
             </div>
         </div>
-        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
-            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2022-2025</div>
+        <div class="timeline-card timeline-card-2" style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px;">
+            <div class="timeline-date" style="font-weight: 600; font-size: 0.9rem;">2022-2025</div>
             <div>
                 <div style="font-weight: 600; margin-bottom: 0.5rem;">Manager of Machine Learning</div>
                 <div style="color: var(--secondary);"><a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--primary); text-decoration: none;">Walmart Global Tech</a></div>
             </div>
         </div>
-        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
-            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2018-2022</div>
+        <div class="timeline-card timeline-card-3" style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px;">
+            <div class="timeline-date" style="font-weight: 600; font-size: 0.9rem;">2018-2022</div>
             <div>
                 <div style="font-weight: 600; margin-bottom: 0.5rem;">Team lead of Machine Learning</div>
                 <div style="color: var(--secondary);"><a href="https://www.ti.com/technologies/edge-ai.html" style="color: var(--primary); text-decoration: none;">Texas Instruments</a></div>
             </div>
         </div>
-        <div style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px; border-left: 4px solid var(--primary);">
-            <div style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">2013-2018</div>
+        <div class="timeline-card timeline-card-4" style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px;">
+            <div class="timeline-date" style="font-weight: 600; font-size: 0.9rem;">2013-2018</div>
             <div>
                 <div style="font-weight: 600; margin-bottom: 0.5rem;">Lead Research Assistant</div>
                 <div style="color: var(--secondary);"><a href="https://cegp.ece.gatech.edu/" style="color: var(--primary); text-decoration: none;">Georgia Institute of Technology</a></div>

@@ -1,6 +1,7 @@
 +++
 title = "The Automation of Knowing: What's Worth Learning in the Age of LLMs?"
 date = 2025-09-21
+description = "Exploring how LLMs are changing the value of knowledge work and why critical thinking, not memorization, is becoming the key to success in an AI-driven world."
 [taxonomies]
 tags = ["ai", "learning"]
 +++

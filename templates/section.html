@@ -39,11 +39,9 @@
   <header class="entry-header">
       <h2>{{ page.title }}</h2>
   </header>
-  {% if page.summary %}
   <div class="entry-content">
-      <p>{{ page.summary | safe }}</p>
+      <p>{{ page.content | striptags | truncate(length=200) }}</p>
   </div>
-  {% endif %}
   <footer class="entry-footer">
       {% include "partials/post_meta.html" %}
   </footer>

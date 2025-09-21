@@ -1,6 +1,7 @@
 +++
 title = "Restarting My Blog: A Decade Later" 
 date = 2024-03-24
+description = "After nearly a decade of silence, I'm rebooting my blog with Zola, Rust, and LLMs as my writing companions. Here's why I'm returning to blogging and what's changed."
 
 [taxonomies]
 categories = ["Announcement"]

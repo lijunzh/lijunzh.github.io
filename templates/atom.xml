@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ config.default_language }}">
+    <title>{{ config.title }}</title>
+    <link rel="self" type="application/atom+xml" href="{{ get_url(path="atom.xml", trailingslash=false) }}"/>
+    <link rel="alternate" type="text/html" href="{{ config.base_url }}"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>{{ last_updated | date(format="%+") }}</updated>
+    <id>{{ get_url(path="atom.xml", trailingslash=false) }}</id>
+    <subtitle>{{ config.description }}</subtitle>
+    <icon>{{ get_url(path="rss-icon.png") }}</icon>
+    <logo>{{ get_url(path="rss-icon.png") }}</logo>
+    {%- for page in pages %}
+    <entry xml:lang="{{ page.lang }}">
+        <title>{{ page.title }}</title>
+        <published>{{ page.date | date(format="%+") }}</published>
+        <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+        {%- if config.extra.author %}
+        <author>
+            <name>{{ config.extra.author }}</name>
+        </author>
+        {%- endif %}
+        <link rel="alternate" type="text/html" href="{{ page.permalink }}"/>
+        <id>{{ page.permalink }}</id>
+        <summary type="html">{{ page.content | striptags | truncate(length=500) | escape }}</summary>
+    </entry>
+    {%- endfor %}
+</feed>

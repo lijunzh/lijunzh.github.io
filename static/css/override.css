@@ -1,3 +1,26 @@
+/* Reduce post title size */
+.post-title {
+    font-size: 1.8rem !important;
+    line-height: 1.3 !important;
+}
+
+/* Reduce section heading sizes within posts */
+.post-content h2 {
+    font-size: 1.4rem !important;
+    line-height: 1.4 !important;
+}
+
+.post-content h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.4 !important;
+}
+
+/* Reduce post list title sizes */
+.entry-header h2 {
+    font-size: 1.3rem !important;
+    line-height: 1.3 !important;
+}
+
 .post-content pre,
 .post-content pre code {
     border-radius: var(--radius);

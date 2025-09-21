@@ -3,6 +3,9 @@ title = "About"
 date = 2020-01-01
 template = "standalone.html"
 draft = false
+
+[extra]
+in_feed = false
 +++
 
 <!--Design inspired by "https://www.aarronwalter.com/"-->

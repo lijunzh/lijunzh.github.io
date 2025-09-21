@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link rel="self" type="application/atom+xml" href="https://lijunzhu.info/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https:&#x2F;&#x2F;lijunzhu.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-03-24T00:00:00+00:00</updated>
+    <id>https://lijunzhu.info/atom.xml</id>
+    <subtitle></subtitle>
+    <icon>https://lijunzhu.info/rss-icon.png</icon>
+    <logo>https://lijunzhu.info/rss-icon.png</logo>
+    <entry xml:lang="en">
+        <title>Restarting My Blog: A Decade Later</title>
+        <published>2024-03-24T00:00:00+00:00</published>
+        <updated>2024-03-24T00:00:00+00:00</updated>
+        <author>
+            <name>Lijun Zhu</name>
+        </author>
+        <link rel="alternate" type="text/html" href="https:&#x2F;&#x2F;lijunzhu.info&#x2F;posts&#x2F;start-blogging&#x2F;"/>
+        <id>https:&#x2F;&#x2F;lijunzhu.info&#x2F;posts&#x2F;start-blogging&#x2F;</id>
+        <summary type="html">What happened before?
+It’s been almost ten years since I last posted on my blog. Back in 2012, I was a college student diving into GitHub, open-source projects, and self-hosting. By 2014, I had a static website humming along on GitHub Pages with a custom domain—a small victory I still remember fondly. For a couple of years, I shared my learning, research findings, and tech experiments there. It was my little corner of the internet.
+Then life took over. By 2016, my research turned confidential, a…</summary>
+    </entry>
+</feed>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>{{ config.title }}</title>
+        <title>Lijun Zhu</title>
         <link>{{ config.base_url }}</link>
-        <description>{{ config.description }}</description>
+        <description>Tech leadership insights, AI innovation, and team building expertise from a Director of Computer Vision</description>
         <generator>Zola</generator>
         <language>{{ config.default_language }}</language>
         <atom:link href="{{ get_url(path="rss.xml", trailingslash=false) }}" rel="self" type="application/rss+xml"/>
         <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
         <image>
             <url>{{ get_url(path="rss-icon.png") }}</url>
-            <title>{{ config.title }}</title>
+            <title>Lijun Zhu</title>
             <link>{{ config.base_url }}</link>
-            <width>192</width>
-            <height>192</height>
-            <description>{{ config.title }} - {{ config.description }}</description>
+            <width>144</width>
+            <height>144</height>
+            <description>Lijun Zhu - Tech leadership insights and AI innovation</description>
         </image>
         {%- for page in pages %}
         <item>
             <title>{{ page.title }}</title>
             <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
             {%- if config.extra.author %}
-            <author>{{ config.extra.author }}</author>
+            <author>gatechzhu@gmail.com ({{ config.extra.author }})</author>
             {%- else %}
-            <author>Unknown</author>
+            <author>noreply@example.com</author>
             {%- endif %}
             <link>{{ page.permalink }}</link>
             <guid>{{ page.permalink }}</guid>
@@ -31,4 +31,4 @@
         </item>
         {%- endfor %}
     </channel>
-</rss.xml>
+</rss>

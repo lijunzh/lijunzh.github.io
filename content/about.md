@@ -1,5 +1,6 @@
 +++
 title = "About"
+date = 2020-01-01
 template = "standalone.html"
 draft = false
 

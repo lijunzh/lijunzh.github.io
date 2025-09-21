@@ -8,10 +8,10 @@ in_feed = false
 
 <!--Design inspired by "https://www.aarronwalter.com/"-->
 
-<div style="display: flex; align-items: center; gap: 3rem; margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto; flex-wrap: wrap; justify-content: center;">
+<div style="display: flex; align-items: center; gap: 3rem; margin: 3rem 0; max-width: 800px; margin-left: auto; margin-right: auto; flex-wrap: wrap; justify-content: center;">
   <div style="flex-shrink: 0;">
-    <div style="width: 250px; height: 250px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      {{ resize_image(path="images/lijun.jpg", width=250, height=250, op="fill", alt="Lijun Profile Picture") }}
+    <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      {{ resize_image(path="images/lijun.jpg", width=200, height=200, op="fill", alt="Lijun Profile Picture") }}
     </div>
   </div>
   <div style="flex: 1; min-width: 300px; text-align: left;">

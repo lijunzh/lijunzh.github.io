@@ -1,0 +1,51 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
+
+{% if page.extra.keywords %}
+<meta name="keywords" content="{{ page.extra.keywords | join(sep=', ') }}">
+{% else %}
+<meta name="keywords" content="{{ config.extra.papermod.keywords | join(sep=', ') }}">
+{% endif %}
+
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+{% else %}
+<meta name="description" content="{{ config.description }}">
+{% endif %}
+
+{% if page.extra.author %}
+<meta name="author" content="{{ page.extra.author }}">
+{% elif config.extra.author %}
+<meta name="author" content="{{ config.extra.author }}">
+{% endif %}
+
+{% if current_url %}
+<link rel="canonical" href="{{ current_url }}">
+{% endif %}
+
+<!-- Favicons -->
+<link rel="icon" href="{{ get_url(path='icons/favicon.ico') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='icons/favicon-16x16.png') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='icons/favicon-32x32.png') }}">
+<link rel="apple-touch-icon" sizes="192x192" href="{{ get_url(path='icons/android-chrome-192x192.png') }}">
+<link rel="manifest" href="{{ get_url(path='site.webmanifest') }}">
+
+<link rel="stylesheet" href="{{ get_url(path='css/includes/scroll-bar.css') }}">
+<link rel="stylesheet" href="{{ get_url(path='css/styles.css') }}">
+{% if config.extra.papermod.show_code_copy_buttons %}
+<link rel="stylesheet" href="{{ get_url(path='css/includes/copy-code.css') }}">
+{% endif %}
+{% if get_url(path="css/override.css") %}
+<link rel="stylesheet" href="{{ get_url(path='css/override.css') }}">
+{% endif %}
+
+{% include "partials/opengraph.html" %}
+
+{% if config.generate_feeds %}
+{% for feed_filename in config.feed_filenames %}
+<link rel="alternate" type="application/{{ feed_filename | split(pat='.') | last }}" title="{{ config.title }}" href="{{ get_url(path=feed_filename, trailingslash=false) | safe }}">
+{% endfor %}
+{% endif %}

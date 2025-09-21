@@ -31,7 +31,7 @@ highlight_theme = "one-dark"
 [search]
 index_format = "elasticlunr_json"
 
-title = "Lijun Zhu | Tech Leadership"
+title = "Lijun Zhu"
 description = "Tech leadership insights, AI innovation, and team building expertise from a Director of Computer Vision"
 
 [extra]
@@ -40,7 +40,7 @@ author = "Lijun Zhu"
 
 # PaperMod theme configuration
 [extra.papermod]
-title = "Lijun Zhu | Tech Leadership"
+title = "Lijun Zhu"
 default_theme = "auto"
 theme = "light"
 language_direction = "ltr"

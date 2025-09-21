@@ -27,7 +27,7 @@
             {%- endif %}
             <link>{{ page.permalink }}</link>
             <guid>{{ page.permalink }}</guid>
-            <description xml:base="{{ page.permalink }}">{{ page.content | striptags | truncate(length=500) | escape }}</description>
+            <description xml:base="{{ page.permalink }}">{{ page.content | escape }}</description>
         </item>
         {%- endfor %}
     </channel>

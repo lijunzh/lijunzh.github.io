@@ -104,13 +104,6 @@ I helped building effective teams at organizations like <a href="https://tech.wa
                 <div style="color: var(--secondary);"><a href="https://www.ti.com/technologies/edge-ai.html" style="color: var(--primary); text-decoration: none;">Texas Instruments</a></div>
             </div>
         </div>
-        <div class="timeline-card timeline-card-4" style="display: grid; grid-template-columns: 100px 1fr; gap: 1rem; padding: 1.5rem; background-color: var(--entry); border-radius: 8px;">
-            <div class="timeline-date" style="font-weight: 600; font-size: 0.9rem;">2013-2018</div>
-            <div>
-                <div style="font-weight: 600; margin-bottom: 0.5rem;">Lead Research Assistant</div>
-                <div style="color: var(--secondary);"><a href="https://cegp.ece.gatech.edu/" style="color: var(--primary); text-decoration: none;">Georgia Institute of Technology</a></div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -118,7 +111,7 @@ I helped building effective teams at organizations like <a href="https://tech.wa
 
 <div style="margin-top: 2rem;"></div>
 
-As Director of Computer Vision at <a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Walmart Global Tech</a>, I've led high-performing teams to deliver cutting-edge AI solutions, scaling machine learning initiatives that drive business impact. With experience building effective engineering organizations at <a href="https://www.ti.com/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Texas Instruments</a> and <a href="https://www.gatech.edu/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Georgia Tech</a>, I specialize in fostering innovation, talent development, and cross-functional collaboration in fast-paced tech environments. As an open-source contributor to projects like <a href="https://numpy.org/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">NumPy</a>, <a href="https://github.com/obspy/obspy" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">ObsPy</a>, and <a href="https://pytorch.org/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">PyTorch</a>, I'm passionate about advancing AI technologies—let's connect to explore leadership opportunities.
+As Director of Computer Vision at <a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Walmart Global Tech</a>, I've led high-performing teams to deliver cutting-edge AI solutions, scaling machine learning initiatives that drive business impact. With experience building effective engineering organizations at <a href="https://www.ti.com/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">Texas Instruments</a>, I specialize in fostering innovation, talent development, and cross-functional collaboration in fast-paced tech environments. As an open-source contributor to projects like <a href="https://numpy.org/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">NumPy</a>, <a href="https://github.com/obspy/obspy" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">ObsPy</a>, and <a href="https://pytorch.org/" style="color: var(--secondary); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px;">PyTorch</a>, I'm passionate about advancing AI technologies—let's connect to explore leadership opportunities.
 
 <div style="text-align: center; margin: 2rem 0;">
     <p style="font-size: 1.2rem; font-weight: 300; line-height: 1.6; color: var(--secondary); font-style: italic; max-width: 700px; margin: 0 auto;">"Platforms can be more than functional - they can inspire our thinking and enable us to do things that we didn't know we could before."</p>
